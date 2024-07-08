@@ -80,6 +80,7 @@ You can view the API documentation and test the endpoints using Swagger UI. To a
 **Performance Testing**:
 - **k6 Performance Tests**: Performance tests are included in the `k6` folder and can be run as part of Docker Compose.
 
+![k6](doc-images/k6.png)
 
 ### Error Handling
 
