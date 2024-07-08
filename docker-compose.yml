@@ -1,0 +1,71 @@
+version: '3'
+services:
+    roman-numeral:
+        container_name: roman-numeral
+        build:
+            dockerfile: Dockerfile
+        user: root
+        ports:
+            - "8090:8090"
+        volumes:
+            - ./logs:/app/logs
+
+    prometheus:
+        container_name: prometheus
+        image: prom/prometheus:v2.51.2 # https://hub.docker.com/r/prom/prometheus
+        extra_hosts: ['host.docker.internal:host-gateway']
+        command:
+            - --enable-feature=exemplar-storage
+            - --web.enable-remote-write-receiver
+            - --config.file=/etc/prometheus/prometheus.yml
+        volumes:
+            - prometheus:/prometheus
+            - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+        ports:
+            - 9090:9090
+    grafana:
+        container_name: grafana
+        image: grafana/grafana:10.4.2 # https://hub.docker.com/r/grafana/grafana/tags
+        extra_hosts: ['host.docker.internal:host-gateway']
+        environment:
+            - GF_AUTH_ANONYMOUS_ENABLED=true
+            - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+            - GF_AUTH_DISABLE_LOGIN_FORM=true
+        volumes:
+            - ./docker/grafana/grafana.ini:/etc/grafana/grafana.ini:ro
+            - ./docker/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources:ro
+            - ./docker/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards:ro
+            - ./docker/grafana/provisioning/alerting:/etc/grafana/provisioning/alerting:ro
+        ports:
+            - 3000:3000
+    tempo:
+        container_name: tempo
+        image: grafana/tempo:2.4.1 # https://hub.docker.com/r/grafana/tempo/tags and https://github.com/grafana/tempo/releases
+        extra_hosts: ['host.docker.internal:host-gateway']
+        command: ['-config.file=/etc/tempo.yml']
+        volumes:
+            - tempo:/tmp/tempo
+            - ./docker/grafana/tempo.yml:/etc/tempo.yml:ro
+        ports:
+            - 3200:3200    # tempo
+            - 9411:9411    # zipkin
+    loki:
+        container_name: loki
+        image: grafana/loki:3.0.0 # https://hub.docker.com/r/grafana/loki/tags and https://github.com/grafana/loki/releases
+        extra_hosts: ['host.docker.internal:host-gateway']
+        command: ['-config.file=/etc/loki/local-config.yaml']
+        ports:
+            - 3100:3100
+    k6:
+        image: grafana/k6:latest
+        command: run /k6-script.js
+        volumes:
+            - ./k6/k6-script.js:/k6-script.js
+        depends_on:
+            -  roman-numeral
+
+volumes:
+  prometheus:
+    driver: local
+  tempo:
+    driver: local

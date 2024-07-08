@@ -1,0 +1,78 @@
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
+plugins {
+    id 'org.springframework.boot' version '3.2.0' // Spring Boot plugin
+    id 'io.spring.dependency-management' version '1.1.0' // Dependency management plugin
+    id 'groovy' // Groovy plugin
+    id 'java' // Java plugin
+}
+
+repositories {
+    mavenCentral() // Central Maven repository
+    maven { url 'https://repo.spring.io/milestone' } // Spring milestone repository
+    maven { url 'https://repo.spring.io/snapshot' } // Spring snapshot repository
+}
+
+group = 'org.adobe.interview.roman-numeral'
+version = '1.0.0'
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+dependencies {
+    // Spring Boot BOM (Bill of Materials) coordinates for dependency versions
+    implementation(platform(SpringBootPlugin.BOM_COORDINATES))
+
+    // Zalando Logbook BOM for structured logging
+    implementation(platform('org.zalando:logbook-bom:latest.release'))
+
+    // Various project dependencies
+    implementation 'com.google.guava:guava:latest.release'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.slf4j:slf4j-api'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'io.micrometer:micrometer-tracing'
+    implementation 'org.springframework.boot:spring-boot-actuator-autoconfigure'
+    implementation 'io.micrometer:micrometer-tracing-bridge-brave'
+    implementation 'io.zipkin.reporter2:zipkin-reporter-brave'
+    implementation 'ch.qos.logback:logback-access:1.+'
+    implementation 'org.zalando:logbook-spring-boot-starter'
+    implementation 'org.zalando:logbook-okhttp'
+
+    // Loki logback appender for log aggregation
+    runtimeOnly 'com.github.loki4j:loki-logback-appender:latest.release'
+
+    // Micrometer Prometheus registry for metrics
+    implementation 'io.micrometer:micrometer-registry-prometheus'
+    runtimeOnly 'org.jolokia:jolokia-core:1.+'
+
+    // Lombok for boilerplate code reduction
+    implementation 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    // Swagger/OpenAPI for API documentation
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+
+    // Spock framework for testing
+    testImplementation(
+            'junit:junit',
+            'org.spockframework:spock-core:2.4-M1-groovy-4.0',
+            'org.spockframework:spock-spring:2.4-M1-groovy-4.0',
+            'org.springframework.boot:spring-boot-starter-test'
+    )
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    // Exclude JUnit from Spring Boot dependencies
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}

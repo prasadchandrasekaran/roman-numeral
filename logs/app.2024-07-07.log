@@ -1,0 +1,296 @@
+2024-07-07 19:11:00.102 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Starting RomanNumeralApplicationIntegrationSpec using Java 17.0.11 with PID 13534 (started by prasadchandrasekaran in /Users/prasadchandrasekaran/Code/adobe/roman-numeral)
+2024-07-07 19:11:00.103 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - No active profile set, falling back to 1 default profile: "default"
+2024-07-07 19:11:01.739 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 19:11:01.742 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-07 19:11:01.742 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-07-07 19:11:02.070 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-07 19:11:04.500 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 19:11:04.526 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Started RomanNumeralApplicationIntegrationSpec in 4.825 seconds (process running for 7.174)
+2024-07-07 19:11:05.517 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 10
+2024-07-07 19:11:05.524 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 10: RomanNumeralResponse(input=10, output=X, romanNumeralError=null)
+2024-07-07 19:11:05.543 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 100
+2024-07-07 19:11:05.543 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 100: RomanNumeralResponse(input=100, output=C, romanNumeralError=null)
+2024-07-07 19:11:05.544 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 200
+2024-07-07 19:11:05.544 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 200: RomanNumeralResponse(input=200, output=CC, romanNumeralError=null)
+2024-07-07 19:11:05.654 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1
+2024-07-07 19:11:05.915 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 4
+2024-07-07 19:11:05.926 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 9
+2024-07-07 19:11:05.930 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 40
+2024-07-07 19:11:05.936 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 90
+2024-07-07 19:11:05.941 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 400
+2024-07-07 19:11:05.947 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 900
+2024-07-07 19:11:05.957 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1000
+2024-07-07 19:11:05.961 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1987
+2024-07-07 19:11:05.971 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 3999
+2024-07-07 19:11:05.988 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 0
+2024-07-07 19:11:05.993 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 4000
+2024-07-07 19:11:05.997 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: -1
+2024-07-07 23:45:56.952 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Starting RomanNumeralApplicationIntegrationSpec using Java 17.0.11 with PID 16499 (started by prasadchandrasekaran in /Users/prasadchandrasekaran/Code/adobe/roman-numeral)
+2024-07-07 23:45:56.954 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - No active profile set, falling back to 1 default profile: "default"
+2024-07-07 23:45:58.700 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 23:45:58.703 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-07 23:45:58.703 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-07-07 23:45:59.056 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-07 23:46:01.198 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 23:46:01.227 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Started RomanNumeralApplicationIntegrationSpec in 4.692 seconds (process running for 6.981)
+2024-07-07 23:47:53.997 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Starting RomanNumeralApplicationIntegrationSpec using Java 17.0.11 with PID 16559 (started by prasadchandrasekaran in /Users/prasadchandrasekaran/Code/adobe/roman-numeral)
+2024-07-07 23:47:54.000 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - No active profile set, falling back to 1 default profile: "default"
+2024-07-07 23:47:55.718 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 23:47:55.721 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-07 23:47:55.722 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-07-07 23:47:55.839 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-07 23:47:58.131 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-07-07 23:47:58.166 INFO  o.a.i.r.RomanNumeralApplicationIntegrationSpec - Started RomanNumeralApplicationIntegrationSpec in 4.564 seconds (process running for 6.894)
+2024-07-07 23:47:59.172 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-07 23:47:59.231 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 1
+2024-07-07 23:47:59.232 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1
+2024-07-07 23:47:59.233 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 1 to Roman numeral I
+2024-07-07 23:47:59.233 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 1: RomanNumeralResponse(input=1, output=I, romanNumeralError=null)
+2024-07-07 23:47:59.386 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 4
+2024-07-07 23:47:59.387 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 4
+2024-07-07 23:47:59.388 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 4 to Roman numeral IV
+2024-07-07 23:47:59.388 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 4: RomanNumeralResponse(input=4, output=IV, romanNumeralError=null)
+2024-07-07 23:47:59.400 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 9
+2024-07-07 23:47:59.401 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 9
+2024-07-07 23:47:59.401 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 9 to Roman numeral IX
+2024-07-07 23:47:59.401 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 9: RomanNumeralResponse(input=9, output=IX, romanNumeralError=null)
+2024-07-07 23:47:59.412 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 40
+2024-07-07 23:47:59.412 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 40
+2024-07-07 23:47:59.412 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 40 to Roman numeral XL
+2024-07-07 23:47:59.412 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 40: RomanNumeralResponse(input=40, output=XL, romanNumeralError=null)
+2024-07-07 23:47:59.424 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 90
+2024-07-07 23:47:59.424 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 90
+2024-07-07 23:47:59.424 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 90 to Roman numeral XC
+2024-07-07 23:47:59.424 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 90: RomanNumeralResponse(input=90, output=XC, romanNumeralError=null)
+2024-07-07 23:47:59.435 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 400
+2024-07-07 23:47:59.436 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 400
+2024-07-07 23:47:59.436 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 400 to Roman numeral CD
+2024-07-07 23:47:59.436 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 400: RomanNumeralResponse(input=400, output=CD, romanNumeralError=null)
+2024-07-07 23:47:59.444 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 900
+2024-07-07 23:47:59.445 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 900
+2024-07-07 23:47:59.445 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 900 to Roman numeral CM
+2024-07-07 23:47:59.445 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 900: RomanNumeralResponse(input=900, output=CM, romanNumeralError=null)
+2024-07-07 23:47:59.454 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 1000
+2024-07-07 23:47:59.455 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1000
+2024-07-07 23:47:59.455 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 1000 to Roman numeral M
+2024-07-07 23:47:59.455 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 1000: RomanNumeralResponse(input=1000, output=M, romanNumeralError=null)
+2024-07-07 23:47:59.469 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 1987
+2024-07-07 23:47:59.469 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 1987
+2024-07-07 23:47:59.470 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 1987 to Roman numeral MCMLXXXVII
+2024-07-07 23:47:59.471 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 1987: RomanNumeralResponse(input=1987, output=MCMLXXXVII, romanNumeralError=null)
+2024-07-07 23:47:59.481 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 3999
+2024-07-07 23:47:59.481 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 3999
+2024-07-07 23:47:59.482 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converted number 3999 to Roman numeral MMMCMXCIX
+2024-07-07 23:47:59.482 INFO  o.a.i.r.endpoint.RomanNumeral - Returning response for number 3999: RomanNumeralResponse(input=3999, output=MMMCMXCIX, romanNumeralError=null)
+2024-07-07 23:47:59.492 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 0
+2024-07-07 23:47:59.492 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 0
+2024-07-07 23:47:59.492 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Invalid number: 0. Number out of range (1-2200000000)
+2024-07-07 23:47:59.493 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Error converting number to Roman numeral: number 0 out of range (1-2200000000)
+2024-07-07 23:47:59.494 ERROR o.a.i.r.endpoint.RomanNumeral - Error converting number 0: number 0 out of range (1-2200000000)
+java.lang.IllegalArgumentException: number 0 out of range (1-2200000000)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.toRoman(RomanNumeralServiceImpl.java:52)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.convertNumberToRomanNumeral(RomanNumeralServiceImpl.java:36)
+	at org.adobe.interview.romannumeral.endpoint.RomanNumeral.RomanNumeralConverter(RomanNumeral.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:76)
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:267)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-07 23:47:59.511 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Requested URI: /romannumeral - Invalid input range. Provided input:  number 0 out of range (1-2200000000)
+2024-07-07 23:47:59.513 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Error response: RomanNumeralResponse(input=null, output=null, romanNumeralError=ErrorDetail(code=INVALID_INPUT_RANGE, message=Input is out of supported range. Please provide a number within the range [1 - 3999]))
+2024-07-07 23:47:59.529 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: -10
+2024-07-07 23:47:59.530 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: -10
+2024-07-07 23:47:59.530 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Invalid number: -10. Number out of range (1-2200000000)
+2024-07-07 23:47:59.530 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Error converting number to Roman numeral: number -10 out of range (1-2200000000)
+2024-07-07 23:47:59.530 ERROR o.a.i.r.endpoint.RomanNumeral - Error converting number -10: number -10 out of range (1-2200000000)
+java.lang.IllegalArgumentException: number -10 out of range (1-2200000000)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.toRoman(RomanNumeralServiceImpl.java:52)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.convertNumberToRomanNumeral(RomanNumeralServiceImpl.java:36)
+	at org.adobe.interview.romannumeral.endpoint.RomanNumeral.RomanNumeralConverter(RomanNumeral.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:76)
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:267)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-07 23:47:59.532 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Requested URI: /romannumeral - Invalid input range. Provided input:  number -10 out of range (1-2200000000)
+2024-07-07 23:47:59.532 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Error response: RomanNumeralResponse(input=null, output=null, romanNumeralError=ErrorDetail(code=INVALID_INPUT_RANGE, message=Input is out of supported range. Please provide a number within the range [1 - 3999]))
+2024-07-07 23:47:59.541 INFO  o.a.i.r.endpoint.RomanNumeral - Received request to convert number: 2200000001
+2024-07-07 23:47:59.541 INFO  o.a.i.r.s.RomanNumeralServiceImpl - Converting number to Roman numeral: 2200000001
+2024-07-07 23:47:59.541 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Invalid number: 2200000001. Number out of range (1-2200000000)
+2024-07-07 23:47:59.542 ERROR o.a.i.r.s.RomanNumeralServiceImpl - Error converting number to Roman numeral: number 2200000001 out of range (1-2200000000)
+2024-07-07 23:47:59.542 ERROR o.a.i.r.endpoint.RomanNumeral - Error converting number 2200000001: number 2200000001 out of range (1-2200000000)
+java.lang.IllegalArgumentException: number 2200000001 out of range (1-2200000000)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.toRoman(RomanNumeralServiceImpl.java:52)
+	at org.adobe.interview.romannumeral.service.RomanNumeralServiceImpl.convertNumberToRomanNumeral(RomanNumeralServiceImpl.java:36)
+	at org.adobe.interview.romannumeral.endpoint.RomanNumeral.RomanNumeralConverter(RomanNumeral.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:76)
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:32)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:267)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-07 23:47:59.547 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Requested URI: /romannumeral - Invalid input range. Provided input:  number 2200000001 out of range (1-2200000000)
+2024-07-07 23:47:59.548 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Error response: RomanNumeralResponse(input=null, output=null, romanNumeralError=ErrorDetail(code=INVALID_INPUT_RANGE, message=Input is out of supported range. Please provide a number within the range [1 - 3999]))
+2024-07-07 23:47:59.564 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Requested URI: /romannumeral - Invalid input type. Provided input:  invalid
+2024-07-07 23:47:59.564 ERROR o.a.i.r.e.h.RomanNumeralExceptionHandler - Error response: RomanNumeralResponse(input=null, output=null, romanNumeralError=ErrorDetail(code=INVALID_INPUT, message=Input is invalid. Please provide a valid integer within the range [1 - 3999]))
