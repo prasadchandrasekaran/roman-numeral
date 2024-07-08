@@ -11,8 +11,9 @@ This project provides an API to convert numbers to Roman numerals, including sup
 
 * Java 17
 * spring-boot 3
-* grade 
+* gradle 
 * spock - Unit and Integration Testing
+* k6 - Perf Testing
 * Swagger
 * Grafana
 * Prometheus
@@ -33,7 +34,7 @@ This project provides an API to convert numbers to Roman numerals, including sup
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:prasadchandrasekaran/roman-numeral.git
     cd roman-numeral
     ```
 
