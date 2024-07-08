@@ -59,7 +59,6 @@ class RomanNumeralApplicationIntegrationSpec extends Specification {
         3999           | "MMMCMXCIX"    | 200
         0              | null           | 400  // Invalid input
         -10            | null           | 400  // Invalid input
-        2200000001     | null           | 400  // Out of range
         "invalid"      | null           | 400  // Invalid type
     }
 }

@@ -1,4 +1,4 @@
-package org.adobe.interview.romannumeral.config.actuator.config;
+package org.adobe.interview.romannumeral.config;
 
 
 import io.micrometer.common.KeyValue;
@@ -19,7 +19,7 @@ import org.springframework.web.filter.ServerHttpObservationFilter;
 import static org.springframework.web.context.request.RequestAttributes.SCOPE_REQUEST;
 
 @Configuration(proxyBeanMethods = false)
-public class CommonActuatorConfig {
+public class ActuatorConfig {
     @Bean
     InfoContributor runtimeInfoContributor(Environment environment) {
         return new RuntimeInfoContributor(environment);
