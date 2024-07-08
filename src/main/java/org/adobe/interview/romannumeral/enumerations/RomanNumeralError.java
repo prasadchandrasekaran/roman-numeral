@@ -14,12 +14,12 @@ public enum RomanNumeralError {
     /**
      * Error when the input is not a valid integer within the range [1 - 3999].
      */
-    INVALID_INPUT("INVALID_INPUT", "Input is invalid. Please provide a valid integer within the range [1 - 222 ]"),
+    INVALID_INPUT("INVALID_INPUT", "Input is invalid. Please provide a valid integer within the range [1 - 2200000000]"),
 
     /**
      * Error when the input is outside the supported range [1 - 3999].
      */
-    INVALID_INPUT_RANGE("INVALID_INPUT_RANGE", "Input is out of supported range. Please provide a number within the range [1 - 3999]"),
+    INVALID_INPUT_RANGE("INVALID_INPUT_RANGE", "Input is out of supported range. Please provide a number within the range [1 - 2200000000]"),
 
     /**
      * Generic internal server error.

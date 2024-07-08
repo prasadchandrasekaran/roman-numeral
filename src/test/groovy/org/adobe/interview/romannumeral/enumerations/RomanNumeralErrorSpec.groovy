@@ -25,8 +25,8 @@ class RomanNumeralErrorSpec extends Specification {
         where:
         // Provide test data for each enum constant with its expected code and message
         error                     | expectedCode                | expectedMessage
-        RomanNumeralError.INVALID_INPUT       | "INVALID_INPUT"       | "Input is invalid. Please provide a valid integer within the range [1 - 3999]"
-        RomanNumeralError.INVALID_INPUT_RANGE | "INVALID_INPUT_RANGE" | "Input is out of supported range. Please provide a number within the range [1 - 3999]"
+        RomanNumeralError.INVALID_INPUT       | "INVALID_INPUT"       | "Input is invalid. Please provide a valid integer within the range [1 - 2200000000]"
+        RomanNumeralError.INVALID_INPUT_RANGE | "INVALID_INPUT_RANGE" | "Input is out of supported range. Please provide a number within the range [1 - 2200000000]"
         RomanNumeralError.INTERNAL_SERVER_ERROR | "INTERNAL_SERVER_ERROR" | "Something went wrong. Please try again later"
     }
 }

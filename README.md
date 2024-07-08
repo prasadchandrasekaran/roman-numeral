@@ -66,13 +66,13 @@ You can view the API documentation and test the endpoints using Swagger UI. To a
 
 ### Methodology
 
-- **Development**: The application was developed following TDD (Test-Driven Development) principles. The core logic was implemented first, followed by extensive unit tests.
+- **Development**: The application was developed following TDD (Test-Driven Development) principles.
 - **Testing**: The project includes unit tests for all core functionality. Performance tests are included to demonstrate the scalability and efficiency of the solution.
 - **Documentation**: Inline comments are included in the source code to explain the logic. This README provides an overview and instructions for building, running, and testing the project.
 
 ### Testing
 
-1. Run unit tests:
+1. Run unit tests and integration test:
     ```bash
     ./gradlew test
     ```
@@ -90,9 +90,10 @@ You can view the API documentation and test the endpoints using Swagger UI. To a
 
 - `src/main/java`: Contains the main application code.
 - `src/main/resources`: Contains the application configuration files.
-- `src/test/java`: Contains unit.
+- `src/test/groovy`: Contains unit and integration test.
 - `docker`: Contains Docker-related files, including Dockerfile and Docker Compose configuration.
 - `logs`: Directory for application logs.
+- `k6`: Directory for application logs.
 
 
 ## Extensions
