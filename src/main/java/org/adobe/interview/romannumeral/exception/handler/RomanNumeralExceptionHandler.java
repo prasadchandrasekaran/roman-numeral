@@ -38,7 +38,6 @@ public class RomanNumeralExceptionHandler {
      */
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<RomanNumeralResponse> handleNumberConverterException(IllegalArgumentException ex, WebRequest webRequest) {
-        logError(webRequest, "Invalid input range. Provided input: ", ex.getMessage());
         return buildErrorResponse(RomanNumeralError.INVALID_INPUT_RANGE, HttpStatus.BAD_REQUEST);
     }
 
@@ -55,7 +54,6 @@ public class RomanNumeralExceptionHandler {
      */
     @ExceptionHandler(MissingServletRequestParameterException.class)
     public ResponseEntity<RomanNumeralResponse> handleMissingServletRequestParameterException(WebRequest webRequest) {
-        logError(webRequest, "Input is empty.", null);
         return buildErrorResponse(RomanNumeralError.INVALID_INPUT, HttpStatus.BAD_REQUEST);
     }
 
@@ -68,7 +66,6 @@ public class RomanNumeralExceptionHandler {
      */
     @ExceptionHandler(TypeMismatchException.class)
     public ResponseEntity<RomanNumeralResponse> handleTypeMismatchException(TypeMismatchException ex, WebRequest webRequest) {
-        logError(webRequest, "Invalid input type. Provided input: ", ex.getValue().toString());
         return buildErrorResponse(RomanNumeralError.INVALID_INPUT, HttpStatus.BAD_REQUEST);
     }
 
@@ -111,7 +108,6 @@ public class RomanNumeralExceptionHandler {
                 .romanNumeralError(ErrorDetail.builder().code(error.getErrorCode())
                                                         .message(error.getErrorMessage()).build())
                 .build();
-        log.error("Error response: {}", response);
         return new ResponseEntity<>(response, status);
     }
 

@@ -49,7 +49,7 @@ public class RomanNumeralServiceImpl implements RomanNumeralService {
         Span span = tracer.nextSpan().name("toRoman").start();
         try (Tracer.SpanInScope ws = tracer.withSpan(span.start())) {
             if (number < 1 || number > MAX_NUMBER) {
-                log.error("Invalid number: {}. Number out of range (1-3999999999)", number);
+                log.info("Invalid number: {}. Number out of range (1-3999999999)", number);
                 throw new IllegalArgumentException(String.format("number %d out of range (1-3999999999)", number));
             }
 
