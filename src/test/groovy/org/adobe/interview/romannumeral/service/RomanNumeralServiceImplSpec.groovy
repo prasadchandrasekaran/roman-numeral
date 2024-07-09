@@ -45,4 +45,24 @@ class RomanNumeralServiceImplSpec extends Specification {
         1000000      | "M̅̅"
     }
 
+    @Unroll
+    def "convertNumberToRomanNumeral should throw IllegalArgumentException for out of range number #number"() {
+        when:
+        def exceptionCaught = null
+
+        and:
+        try {
+            romanNumeralService.convertNumberToRomanNumeral(number)
+        } catch (IllegalArgumentException e) {
+            exceptionCaught = e
+        }
+
+        then:
+        exceptionCaught.message == "number $number out of range (1-3999999999)"
+
+        where:
+        number | _
+        0      | _
+        -1     | _
+    }
 }
